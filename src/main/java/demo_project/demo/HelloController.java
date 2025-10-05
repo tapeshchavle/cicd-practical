@@ -10,7 +10,7 @@ import java.util.Date;
 public class HelloController {
     @GetMapping("/")
     public String home() {
-        return "Hello from Spring Boot 🚀 . Welcome in your first cicd project";
+        return "Hello from Spring Boot 🚀 . Welcome in your first cicd project..";
     }
 
     @GetMapping("/{name}")
