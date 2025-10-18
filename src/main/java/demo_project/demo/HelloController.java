@@ -15,7 +15,7 @@ public class HelloController {
 
     @GetMapping("/{name}")
     public String welcome(@PathVariable String name){
-        return "hello "+name+" Welcome Back to new cicd application .... "+name;
+        return "hello "+name+" Welcome Back to new cicd application .... hello "+name;
     }
     @GetMapping("/date")
     public Date todayDate(){
