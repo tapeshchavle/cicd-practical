@@ -10,12 +10,12 @@ import java.util.Date;
 public class HelloController {
     @GetMapping("/")
     public String home() {
-        return "Hello from Spring Boot 🚀 ";
+        return "Hello from Spring Boot 🚀 .";
     }
 
     @GetMapping("/{name}")
     public String welcome(@PathVariable String name){
-        return "Welcome back in this application .... "+name;
+        return "hello "+name+" Welcome Back to new cicd application"+name;
     }
     @GetMapping("/date")
     public Date todayDate(){
